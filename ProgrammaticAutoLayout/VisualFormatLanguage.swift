@@ -35,6 +35,16 @@ class VisualFormatController: UIViewController {
         view.addSubview(blueView)
         
         // Constraint Code
+        let views: [String: Any] = [
+            "redView": redView,
+            "greenView": greenView,
+            "blueView": blueView
+        ]
         
+        let metrics: [String: Any] = [
+            "redViewWidth": 200
+        ]
+        
+        NSLayoutConstraint.constraints(withVisualFormat: "H:[redView(redViewWidth)]", options: [], metrics: metrics, views: views).map { $0.isActive = true }
     }
 }
