@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         let redViewBottomSpaceConstraint = NSLayoutConstraint(item: redView, attribute: .bottom, relatedBy: .equal, toItem: view, attribute: .bottom, multiplier: 1.0, constant: -50)
         
         NSLayoutConstraint.activate([
-            horizontalCenter,
+            redView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             redViewWidthConstraint,
             redViewHeightConstraint,
             redViewBottomSpaceConstraint
