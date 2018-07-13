@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4965718520F8CF86000270F6 /* LayoutGuides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4965718420F8CF86000270F6 /* LayoutGuides.swift */; };
 		49BB1C5120F4D2FA00B926B3 /* VisualFormatLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BB1C5020F4D2FA00B926B3 /* VisualFormatLanguage.swift */; };
 		49FF16F320F3B89F0054511D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FF16F220F3B89F0054511D /* AppDelegate.swift */; };
 		49FF16F520F3B89F0054511D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FF16F420F3B89F0054511D /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4965718420F8CF86000270F6 /* LayoutGuides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutGuides.swift; sourceTree = "<group>"; };
 		49BB1C5020F4D2FA00B926B3 /* VisualFormatLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualFormatLanguage.swift; sourceTree = "<group>"; };
 		49FF16EF20F3B89F0054511D /* ProgrammaticAutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgrammaticAutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49FF16F220F3B89F0054511D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				49FF16FB20F3B8A00054511D /* LaunchScreen.storyboard */,
 				49FF16FE20F3B8A00054511D /* Info.plist */,
 				49BB1C5020F4D2FA00B926B3 /* VisualFormatLanguage.swift */,
+				4965718420F8CF86000270F6 /* LayoutGuides.swift */,
 			);
 			path = ProgrammaticAutoLayout;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4965718520F8CF86000270F6 /* LayoutGuides.swift in Sources */,
 				49FF16F520F3B89F0054511D /* ViewController.swift in Sources */,
 				49BB1C5120F4D2FA00B926B3 /* VisualFormatLanguage.swift in Sources */,
 				49FF16F320F3B89F0054511D /* AppDelegate.swift in Sources */,
